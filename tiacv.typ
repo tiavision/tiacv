@@ -6,7 +6,7 @@
 
 #let tiacv(content) = {
   set page(margin: (x: 2cm, y: 2cm), numbering: "1/1")
-  set text(font: "Source Sans 3", lang: "de", fallback: false)
+  set text(font: "Source Sans Pro", lang: "de", fallback: false)
 
   show heading: it => {
     set text(font: "Roboto", fill: main.get())
@@ -108,13 +108,13 @@
 
 #let fa(name) = {
   text(
-    font: "Font Awesome 6 Free Solid",
+    font: "Font Awesome 7 Free Solid",
     [ #name ]
   )
 }
 #let fa-brands(name) = {
   text(
-    font: "Font Awesome 6 Brands",
+    font: "Font Awesome 7 Brands",
     [ #name ]
   )
 }
