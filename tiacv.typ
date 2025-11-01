@@ -108,13 +108,13 @@
 
 #let fa(name) = {
   text(
-    font: "Font Awesome 7 Free Solid",
+    font: "Font Awesome 6 Free Solid",
     [ #name ]
   )
 }
 #let fa-brands(name) = {
   text(
-    font: "Font Awesome 7 Brands",
+    font: "Font Awesome 6 Brands",
     [ #name ]
   )
 }
