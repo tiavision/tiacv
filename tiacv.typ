@@ -33,7 +33,7 @@
     // v(5pt)
   }
 
-  show heading.where(depth: 2): it => text(font: "Roboto", fill: accent.get(), size: text.size*0.91)[#it.body]
+  show heading.where(depth: 2): it => text(font: "Roboto", fill: accent.get(), size: text.size*0.9)[#it.body]
   
   content
 }
@@ -97,7 +97,7 @@
       place(dx: -linepadding.get(),
         [
           #place(line(angle: 90deg, start: (4pt, 3pt), length: m.height - 3pt, stroke: linewidth.get() + accent.get()))
-          #place(dx: 1pt, dy: 2pt, circle(fill: white, stroke: (linewidth.get()/2) + accent.get(), height: 6pt))
+          #place(dx: 1pt, dy: 1pt, circle(fill: white, stroke: (linewidth.get()/2) + accent.get(), height: 6pt))
         ]
       )
     }
